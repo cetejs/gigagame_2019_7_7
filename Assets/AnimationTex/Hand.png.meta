@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: f8a6d9284eb75b149b969602d445a136
+guid: 3fed5c4c11a4af24cafd56d18fe561a1
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Hand_0
-    21300002: Hand_1
-    21300004: Hand_2
-    21300006: Hand_3
-    21300008: Hand_4
-    21300010: Hand_5
+    21300000: hand motion (2)_0
+    21300002: hand motion (2)_1
+    21300004: hand motion (2)_2
+    21300006: hand motion (2)_3
+    21300008: hand motion (2)_4
+    21300010: hand motion (2)_5
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -101,7 +101,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hand_0
+      name: hand motion (2)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,13 +115,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f4ea04d758789543936ec991e061019
+      spriteID: b46ddc8b8a2bd8c4da957ca61fd9cdd6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand_1
+      name: hand motion (2)_1
       rect:
         serializedVersion: 2
         x: 56
@@ -135,13 +135,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 929f314732dc1ce4889f62db7ae26afd
+      spriteID: 45a7676771176744d96aa65c28b00888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand_2
+      name: hand motion (2)_2
       rect:
         serializedVersion: 2
         x: 112
@@ -155,13 +155,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 883d7bd4a9a25264791e288132bff156
+      spriteID: 6b4dd4cd13768ed41b979c2ce9ccc2ea
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand_3
+      name: hand motion (2)_3
       rect:
         serializedVersion: 2
         x: 168
@@ -175,13 +175,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a9ab406647e7fd42833f447427b8113
+      spriteID: ec1a23b74f14f6f4fa7da1bd3d4ddfaf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand_4
+      name: hand motion (2)_4
       rect:
         serializedVersion: 2
         x: 224
@@ -195,13 +195,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a6ce1d891207444ca5b1906c37c3df4
+      spriteID: 3ccb97f10bebc7441a25b45d62fe37d8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand_5
+      name: hand motion (2)_5
       rect:
         serializedVersion: 2
         x: 280
@@ -215,7 +215,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acf8a41f86a490d41a9a70689b381fec
+      spriteID: 4abdc03d7b0919c4683675be74278407
       vertices: []
       indices: 
       edges: []
@@ -223,7 +223,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 9071122a8a8c69247a70c16a3433cdd9
+    spriteID: e42a1cac21d24af458f13f938b8c49ae
     vertices: []
     indices: 
     edges: []
