@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(PlayerBehavior))]
 public class PlayerHealth : MonoBehaviour
 {
     private PlayerBehavior _playerBehavior;
@@ -18,7 +19,6 @@ public class PlayerHealth : MonoBehaviour
 
     public void GetDamage(int damage) {
         var health = CustomPlayerPrefs.Instance.Health;
-        print(health);
         if (health > 0) {
             health -= damage;
             if (health > 0) PlayerBehavior.Invincible(2f);
@@ -27,13 +27,11 @@ public class PlayerHealth : MonoBehaviour
             health = 0;
             PlayerBehavior.Die();
         }
-        print(health);
-        PlayerBehavior.RefreshHeart(); 
         CustomPlayerPrefs.Instance.Health = health;
+        PlayerBehavior.RefreshHeart();
     }
 
     public void TakeHeart(int heartCount) {
-
         CustomPlayerPrefs.Instance.Health += heartCount;
         PlayerBehavior.RefreshHeart();
     }

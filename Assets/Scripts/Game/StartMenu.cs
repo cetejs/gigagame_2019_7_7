@@ -6,11 +6,18 @@ public class StartMenu : MonoBehaviour
 {
     [SerializeField] private GameObject _textGo;
     private bool _isStartGame;
-    private void Update() {
-        if (Input.anyKeyDown && !_isStartGame) {
-            LevelController.Instance.ChangeLevel();
-            _textGo.SetActive(false);
-            _isStartGame = true;
-        }
+    
+
+    public void OnChangeLevelBtnClick(int level) {
+        CustomPlayerPrefs.Instance.Level = level;
+        LevelController.Instance.ChangeLevel();
+    }
+
+    public void OnKeepGameBtnClick() {
+        LevelController.Instance.ChangeLevel();
+    }
+
+    public void OnQuitGameBtnClick() {
+        Application.Quit();
     }
 }

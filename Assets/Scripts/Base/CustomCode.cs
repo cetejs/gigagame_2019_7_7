@@ -28,12 +28,18 @@ public class CustomVariable {
 
     public static readonly int HEALTH_MIN = 1;
 
-    public static readonly int HEALTH_MID = 2;
+   // public static readonly int HEALTH_MID = 2;
 
-    public static readonly int HEALTH_MAX = 3;
+    public static readonly int HEALTH_MAX = 2;
 
     public static readonly int LEVELMIN = 1;
 
     public static readonly int LEVEL_MAX = 5;
+
+    public static readonly float MULTIPLE_GETHEART_SPEED_MOVE = 0.5f;
+
+    public static readonly float MULTIPLE_GETHEART_SPEED_JUMP = 0.5f;
+
+    public static readonly int COOLING_TIME_GETHEART = 10;
 
 }

@@ -6,8 +6,8 @@ public class InputBase :Singleton<InputBase>
 {
     private string _AxisX = "Horizontal";
     private string _AxisY = "Vertical";
-    private KeyCode _Jump = KeyCode.Space;
-    private KeyCode _Shin = KeyCode.J;
+    private KeyCode _Jump = KeyCode.J;
+    private KeyCode _Shin = KeyCode.K;
     private KeyCode _Sprint = KeyCode.L;
     private KeyCode _Quit = KeyCode.Escape;
 
@@ -51,5 +51,7 @@ public class InputBase :Singleton<InputBase>
         return Input.GetKeyUp(_Sprint);
     }
 
-
+    public bool IsQuitDown() {
+        return Input.GetKeyDown(_Quit);
+    }
 }
